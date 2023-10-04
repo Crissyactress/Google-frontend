@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://pro.font awesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3zcuHtOA9w35dYTsvhLPVnYs9estHfGJvovKxv" crossorigin="anonymous"/> -->
+    <!-- <link rel="shortccut icon" type="image/x-icon" href="https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard"> -->
+</head>
+
+<body>
+    <header>
+
+        <a href="index.html">Image search</a>
+        <a href="advanced.html">Advanced search</a>
+
+    </header>
+
+    <!-- END OF HEADER  -->
+
+
+    <section>
+        <div class="image">
+            <img src="google-removebg-preview.png" alt="" fontSize="" color="red" />
+        </div>
+        <form action="https://google.com/search">
+            <div id="inputField">
+                <i class="fas fa-search"></i>
+                <input type="text" value="Image search..." />
+            </div>
+            </div>
+            <div id="button">
+                <input type="submit" value="Google search" />
+                <input type="submit" value="I'm feeling Lucky" />
+            </div>
+        </form>
+    </section>
+
+        <style>
+              body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+
+        header {
+            text-align: right;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+        }
+
+        header a {
+            margin-left: 10px;
+        }
+
+            .image {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image img {
+                max-width: 100%;
+                /* max-height: 100%; */
+                display: block;
+            }
+
+            #searchForm {
+                margin-top: 0px;
+                /* Add some spacing between the image and the form */
+                text-align: center;
+            }
+
+            #inputField {
+                display: flex;
+                align-items: center;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            #inputField input[type="text"] {
+                border: none;
+                outline: none;
+                width: 100%;
+                padding: 5px;
+            }
+
+            #button {
+                margin-top: 10px;
+            }
+
+            #button input[type="submit"] {
+                margin-right: 10px;
+            }
+
+
+            
+
+        </style>
+
+</body>
+
+</html>
